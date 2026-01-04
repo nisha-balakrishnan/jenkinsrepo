@@ -1,11 +1,6 @@
 pipeline {
     agent any
 
-    tools {
-        maven 'maven-3'
-        jdk 'java-11'
-    }
-
     environment {
         SONAR_PROJECT_KEY = 'nisha-balakrishnan_devops'
         SONAR_ORG = 'nisha-balakrishnan'
